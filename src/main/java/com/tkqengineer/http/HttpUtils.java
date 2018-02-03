@@ -30,8 +30,6 @@ import java.io.*;
 import java.lang.reflect.Field;
 import java.nio.charset.Charset;
 import java.security.KeyManagementException;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
 import java.security.cert.X509Certificate;
 import java.util.*;
 
@@ -264,12 +262,12 @@ public class HttpUtils {
 			return HttpClients.custom().setSSLSocketFactory(sslsf).build();
 		} catch (KeyManagementException e) {
 			logger.info("ssl客户端创建失败", e);
-		} catch (NoSuchAlgorithmException e) {
+			throw new RuntimeException("ssl客户端创建失败");
+		} catch (Exception e) {
 			logger.info("ssl客户端创建失败", e);
-		} catch (KeyStoreException e) {
-			logger.info("ssl客户端创建失败", e);
+			throw new RuntimeException("ssl客户端创建失败");
 		}
-		return null;
+		
 	}
 	
 	public static String httpsGet(String url) {
