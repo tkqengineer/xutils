@@ -14,6 +14,7 @@ public class RedisUtils {
 
 
 	int kkks;
+	int f;
 	int m;
 
 	
