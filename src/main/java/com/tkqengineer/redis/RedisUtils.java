@@ -8,6 +8,7 @@ public class RedisUtils {
 
 	int c;
     int a;
+	int d;
 
 
 }
