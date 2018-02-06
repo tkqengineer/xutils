@@ -5,7 +5,6 @@ package com.tkqengineer.redis;
  * @date : 2018/2/3 18:04
  */
 public class RedisUtils {
-
-
-
+	int c;
+	
 }
