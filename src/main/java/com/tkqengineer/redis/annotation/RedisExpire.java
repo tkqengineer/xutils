@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 该注解用来标记可以key是否可以过期
  *
- * @author : tengkangquan@jianyi.tech
+ * @author : tengkangquan
  * @date : 2018/2/3 18:08
  */
 @Retention(RetentionPolicy.RUNTIME)

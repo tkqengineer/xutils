@@ -34,7 +34,7 @@ import java.security.cert.X509Certificate;
 import java.util.*;
 
 /**
- * @author : tengkangquan@jianyi.tech
+ * @author : tengkangquan
  * @date : 2018/1/12 23:06
  */
 public class HttpUtils {

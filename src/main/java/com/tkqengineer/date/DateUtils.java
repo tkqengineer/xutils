@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author : tengkangquan@jianyi.tech
+ * @author : tengkangquan
  * @date : 2018/2/3 17:41
  */
 public class DateUtils {
