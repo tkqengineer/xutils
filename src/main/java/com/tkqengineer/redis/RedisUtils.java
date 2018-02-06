@@ -7,9 +7,7 @@ package com.tkqengineer.redis;
 public class RedisUtils {
 
 	int c;
-	
-
-int a;
+    int a;
 
 
 }
