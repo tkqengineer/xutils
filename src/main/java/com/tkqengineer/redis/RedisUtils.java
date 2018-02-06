@@ -13,7 +13,7 @@ public class RedisUtils {
 
 
 
-	int a;
+	int kkks;
 	int m;
 
 	
